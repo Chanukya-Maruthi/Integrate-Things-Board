@@ -1,0 +1,148 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "f35b3e50-c413-11ee-80d2-474e1902aece"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "d3554d00-c709-11ee-a1af-a7e67e72b29c"
+    },
+    "label" : "",
+    "name" : "My Gateway Device",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "1IyNCvttPFlsUwJGp5OT",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1707477285496,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[]",
+      "key" : "inactive_connectors",
+      "lastUpdateTs" : 1707475604412,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1707477285496,
+      "longValue" : 1707477285495,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1707476679876,
+      "longValue" : 1707476677348,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1707476649266,
+      "longValue" : 1707476649266,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1707476677354,
+      "longValue" : 1707476677354,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"name\":\"Modbus\",\"type\":\"modbus\",\"logLevel\":\"DEBUG\",\"configuration\":\"modbus.json\",\"configurationJson\":{\"master\":{\"slaves\":[{\"host\":\"host.docker.internal\",\"port\":5021,\"type\":\"tcp\",\"method\":\"socket\",\"timeout\":35,\"byteOrder\":\"LITTLE\",\"wordOrder\":\"LITTLE\",\"retries\":true,\"retryOnEmpty\":true,\"retryOnInvalid\":true,\"pollPeriod\":5000,\"unitId\":1,\"deviceName\":\"Demo Device Chanukya\",\"deviceType\":\"default\",\"sendDataOnlyOnChange\":false,\"connectAttemptTimeMs\":5000,\"connectAttemptCount\":5,\"waitAfterFailedAttemptsMs\":300000,\"attributes\":[{\"tag\":\"frequency\",\"type\":\"8int\",\"functionCode\":4,\"objectsCount\":1,\"address\":4},{\"tag\":\"power\",\"type\":\"16float\",\"functionCode\":4,\"objectsCount\":2,\"address\":8}],\"timeseries\":[{\"tag\":\"humidity\",\"type\":\"8uint\",\"functionCode\":4,\"objectsCount\":1,\"address\":4},{\"tag\":\"temperature\",\"type\":\"16uint\",\"functionCode\":4,\"objectsCount\":2,\"address\":4},{\"tag\":\"check_telemetry\",\"type\":\"8uint\",\"functionCode\":4,\"objectsCount\":3,\"address\":4}],\"attributeUpdates\":[],\"rpc\":[]}]},\"logLevel\":\"DEBUG\",\"name\":\"Modbus\"},\"ts\":1707476628728}",
+      "key" : "Modbus",
+      "lastUpdateTs" : 1707476630665,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "RemoteLoggingLevel",
+      "lastUpdateTs" : 1707475499044,
+      "longValue" : null,
+      "strValue" : "DEBUG"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[\"Modbus\"]",
+      "key" : "active_connectors",
+      "lastUpdateTs" : 1707475604409,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"host\":\"mqtt.thingsboard.cloud\",\"port\":1883,\"remoteShell\":false,\"remoteConfiguration\":true,\"checkConnectorsConfigurationInSeconds\":60,\"statistics\":{\"enable\":true,\"statsSendPeriodInSeconds\":3600,\"commands\":[]},\"maxPayloadSizeBytes\":1024,\"minPackSendDelayMS\":200,\"minPackSizeToSend\":500,\"handleDeviceRenaming\":true,\"checkingDeviceActivity\":{\"checkDeviceInactivity\":false,\"inactivityTimeoutSeconds\":200,\"inactivityCheckPeriodSeconds\":500},\"security\":{\"type\":\"accessToken\",\"accessToken\":\"1IyNCvttPFlsUwJGp5OT\"},\"qos\":1,\"ts\":1707475497108}",
+      "key" : "general_configuration",
+      "lastUpdateTs" : 1707475499044,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"enabled\":false,\"ts\":1707475497108}",
+      "key" : "grpc_configuration",
+      "lastUpdateTs" : 1707475499044,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"version\":1,\"disable_existing_loggers\":false,\"formatters\":{\"LogFormatter\":{\"class\":\"logging.Formatter\",\"format\":\"%(asctime)s - |%(levelname)s| - [%(filename)s] - %(module)s - %(funcName)s - %(lineno)d - %(message)s\",\"datefmt\":\"%Y-%m-%d %H:%M:%S\"}},\"handlers\":{\"consoleHandler\":{\"class\":\"logging.StreamHandler\",\"formatter\":\"LogFormatter\",\"level\":\"DEBUG\",\"stream\":\"ext://sys.stdout\"},\"databaseHandler\":{\"class\":\"thingsboard_gateway.tb_utility.tb_handler.TimedRotatingFileHandler\",\"formatter\":\"LogFormatter\",\"filename\":\"./logs/database.log\",\"backupCount\":1,\"encoding\":\"utf-8\"},\"serviceHandler\":{\"class\":\"thingsboard_gateway.tb_utility.tb_handler.TimedRotatingFileHandler\",\"formatter\":\"LogFormatter\",\"filename\":\"./logs/service.log\",\"backupCount\":7,\"interval\":3,\"when\":\"D\",\"encoding\":\"utf-8\"},\"connectorHandler\":{\"class\":\"thingsboard_gateway.tb_utility.tb_handler.TimedRotatingFileHandler\",\"formatter\":\"LogFormatter\",\"filename\":\"./logs/connector.log\",\"backupCount\":7,\"interval\":3,\"when\":\"D\",\"encoding\":\"utf-8\"},\"converterHandler\":{\"class\":\"thingsboard_gateway.tb_utility.tb_handler.TimedRotatingFileHandler\",\"formatter\":\"LogFormatter\",\"filename\":\"./logs/converter.log\",\"backupCount\":7,\"interval\":3,\"when\":\"D\",\"encoding\":\"utf-8\"},\"tb_connectionHandler\":{\"class\":\"thingsboard_gateway.tb_utility.tb_handler.TimedRotatingFileHandler\",\"formatter\":\"LogFormatter\",\"filename\":\"./logs/tb_connection.log\",\"backupCount\":7,\"interval\":3,\"when\":\"D\",\"encoding\":\"utf-8\"},\"storageHandler\":{\"class\":\"thingsboard_gateway.tb_utility.tb_handler.TimedRotatingFileHandler\",\"formatter\":\"LogFormatter\",\"filename\":\"./logs/storage.log\",\"backupCount\":7,\"interval\":3,\"when\":\"D\",\"encoding\":\"utf-8\"},\"extensionHandler\":{\"class\":\"thingsboard_gateway.tb_utility.tb_handler.TimedRotatingFileHandler\",\"formatter\":\"LogFormatter\",\"filename\":\"./logs/extension.log\",\"backupCount\":7,\"interval\":3,\"when\":\"D\",\"encoding\":\"utf-8\"}},\"loggers\":{\"database\":{\"handlers\":[\"databaseHandler\",\"consoleHandler\"],\"level\":\"DEBUG\",\"propagate\":false},\"service\":{\"handlers\":[\"serviceHandler\",\"consoleHandler\"],\"level\":\"INFO\",\"propagate\":false},\"connector\":{\"handlers\":[\"connectorHandler\",\"consoleHandler\"],\"level\":\"INFO\",\"propagate\":false},\"converter\":{\"handlers\":[\"converterHandler\",\"consoleHandler\"],\"level\":\"INFO\",\"propagate\":false},\"tb_connection\":{\"handlers\":[\"tb_connectionHandler\",\"consoleHandler\"],\"level\":\"INFO\",\"propagate\":false},\"storage\":{\"handlers\":[\"storageHandler\",\"consoleHandler\"],\"level\":\"INFO\",\"propagate\":false},\"extension\":{\"handlers\":[\"extensionHandler\",\"consoleHandler\"],\"level\":\"INFO\",\"propagate\":false}},\"root\":{\"level\":\"ERROR\",\"handlers\":[\"consoleHandler\"]},\"ts\":1707475497108}",
+      "key" : "logs_configuration",
+      "lastUpdateTs" : 1707475499044,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"type\":\"memory\",\"read_records_count\":100,\"max_records_count\":100000,\"data_folder_path\":\"./data/\",\"max_file_count\":10,\"max_read_records_count\":10,\"max_records_per_file\":10000,\"data_file_path\":\"./data/data.db\",\"messages_ttl_check_in_hours\":1,\"messages_ttl_in_days\":7,\"ts\":1707475497108}",
+      "key" : "storage_configuration",
+      "lastUpdateTs" : 1707475499044,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}
