@@ -12,7 +12,10 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET",
+      "id" : "ff39d4e0-ca3d-11ee-a0e0-15431c20b1f9"
+    },
     "id" : {
       "entityType" : "ASSET",
       "id" : "ff39d4e0-ca3d-11ee-a0e0-15431c20b1f9"
@@ -22,20 +25,15 @@
     "ownerId" : null,
     "type" : "default"
   },
-  "relations" : [ {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "ASSET",
-      "id" : "ff39d4e0-ca3d-11ee-a0e0-15431c20b1f9"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "404aefa0-ca3e-11ee-a1af-a7e67e72b29c"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON"
-  } ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "type",
+      "lastUpdateTs" : 1707810307686,
+      "longValue" : null,
+      "strValue" : "Building"
+    } ]
   }
 }
