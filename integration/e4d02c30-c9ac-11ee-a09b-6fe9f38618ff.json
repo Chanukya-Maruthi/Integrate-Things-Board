@@ -1,0 +1,60 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : null,
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "metadata" : { },
+      "baseUrl" : "https://thingsboard.cloud",
+      "httpEndpoint" : "https://thingsboard.cloud/api/v1/integrations/http/90f430cb-2c64-3623-5c2e-84268df1670c",
+      "enableSecurity" : false,
+      "headersFilter" : { },
+      "replaceNoContentToOk" : true
+    },
+    "debugMode" : true,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "bb5c2480-c9ac-11ee-9761-21e4bffd617b"
+    },
+    "downlinkConverterId" : null,
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "e4d02c30-c9ac-11ee-a09b-6fe9f38618ff"
+    },
+    "name" : "HTTP Integration",
+    "remote" : false,
+    "routingKey" : "90f430cb-2c64-3623-5c2e-84268df1670c",
+    "secret" : "9azy7ipja4ui5vex76yi",
+    "type" : "HTTP"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-0",
+      "lastUpdateTs" : 1707745490595,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-1",
+      "lastUpdateTs" : 1707745490601,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-2",
+      "lastUpdateTs" : 1707745490598,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}
