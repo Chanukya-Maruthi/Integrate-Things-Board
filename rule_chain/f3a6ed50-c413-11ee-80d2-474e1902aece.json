@@ -4,10 +4,13 @@
     "additionalInfo" : null,
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f3a6ed50-c413-11ee-80d2-474e1902aece"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "f3ad7d00-c413-11ee-80d2-474e1902aece"
+      "id" : "7ba4f0e0-cbcf-11ee-a273-6fe9f38618ff"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -19,6 +22,10 @@
   },
   "metaData" : {
     "connections" : [ {
+      "fromIndex" : 1,
+      "toIndex" : 22,
+      "type" : "Success"
+    }, {
       "fromIndex" : 2,
       "toIndex" : 0,
       "type" : "Post telemetry"
@@ -134,7 +141,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3a89b00-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba27fe0-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Save Timeseries",
       "ruleChainId" : null,
@@ -157,7 +164,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3a95e50-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba2a6f0-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Save Attributes",
       "ruleChainId" : null,
@@ -177,7 +184,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3a9fa90-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba2ce00-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -199,7 +206,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3aa6fc0-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba2f510-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Log RPC from Device",
       "ruleChainId" : null,
@@ -221,7 +228,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3aabde0-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba454a0-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Log Other",
       "ruleChainId" : null,
@@ -241,7 +248,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3ab5a20-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba454a1-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "RPC Call Request",
       "ruleChainId" : null,
@@ -261,7 +268,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3abcf50-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba47bb0-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Is Entity Group",
       "ruleChainId" : null,
@@ -281,7 +288,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3ac6b90-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba4a2c0-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Post attributes or RPC request",
       "ruleChainId" : null,
@@ -302,7 +309,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3ace0c0-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba4c9d0-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Duplicate To Group Entities",
       "ruleChainId" : null,
@@ -324,7 +331,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3ad7d00-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba4f0e0-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
@@ -345,7 +352,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "f3adf230-c413-11ee-80d2-474e1902aece"
+        "id" : "7ba517f0-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Generate Report",
       "ruleChainId" : null,
@@ -377,7 +384,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "ab6aded0-c746-11ee-a0e0-15431c20b1f9"
+        "id" : "7ba53f00-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Originator Telemetry",
       "ruleChainId" : null,
@@ -386,8 +393,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2188,
-        "layoutY" : 303
+        "layoutX" : 2198,
+        "layoutY" : 305
       },
       "configuration" : {
         "serviceIdMetaDataAttribute" : "serviceId",
@@ -400,7 +407,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "ab6d01b0-c746-11ee-a0e0-15431c20b1f9"
+        "id" : "7ba56610-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Reply To Cliq Bot",
       "ruleChainId" : null,
@@ -423,7 +430,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "e1be6410-c756-11ee-9761-21e4bffd617b"
+        "id" : "7ba58d20-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Script Transformation",
       "ruleChainId" : null,
@@ -446,7 +453,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "689059e0-c963-11ee-a09b-6fe9f38618ff"
+        "id" : "7ba5b430-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Switch Node",
       "ruleChainId" : null,
@@ -488,7 +495,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "159bdc80-c965-11ee-a1af-a7e67e72b29c"
+        "id" : "7ba5db40-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Generating Dashboard Report 2",
       "ruleChainId" : null,
@@ -515,7 +522,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "159c9fd0-c965-11ee-a1af-a7e67e72b29c"
+        "id" : "7ba60250-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Transforming To Email",
       "ruleChainId" : null,
@@ -549,7 +556,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "159d6320-c965-11ee-a1af-a7e67e72b29c"
+        "id" : "7ba62960-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Sending Email",
       "ruleChainId" : null,
@@ -572,7 +579,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "b555e810-c965-11ee-9761-21e4bffd617b"
+        "id" : "7ba65070-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Reply To Cliq Bot",
       "ruleChainId" : null,
@@ -595,7 +602,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "e3bc1500-c968-11ee-a0e0-15431c20b1f9"
+        "id" : "7ba65071-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Switching Based On Assembly Line 1",
       "ruleChainId" : null,
@@ -637,7 +644,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "e3bcd850-c968-11ee-a0e0-15431c20b1f9"
+        "id" : "7ba67780-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Generating Dashboard Report 1",
       "ruleChainId" : null,
@@ -679,12 +686,35 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "e3bdc2b0-c968-11ee-a0e0-15431c20b1f9"
+        "id" : "7ba69e90-cbcf-11ee-a273-6fe9f38618ff"
       },
       "name" : "Generating Dashboard Report 3",
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.report.TbGenerateReportNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1268,
+        "layoutY" : 168
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
+        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f0c58ac0-cbd3-11ee-a9a4-15431c20b1f9"
+      },
+      "name" : "Checking Commit",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     } ],
     "ruleChainConnections" : null
   },
